@@ -89,6 +89,22 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media (max-width: 767px){
+  body{
+    padding: 0;
+  }
+  
+  .navbar.navbar-inverse.navbar-static-top{
+    width: 100%;
+    margin: 0;
+    padding: 0.9em;
+    position: fixed;
+    right: 0;
+    left: 0;
+  }
+ }
+
+
 @media (min-width: 768px) {
 
   /* Remove the edge padding needed for mobile */
